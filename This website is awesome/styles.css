@@ -1,0 +1,60 @@
+*{
+    border: 1px solid rgb(59, 118, 65);
+    margin: 0%;
+}
+.main-TOP-Content{
+    background-color: #1f2937;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    gap: 8px
+    ;
+
+}
+.header-Logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    flex-grow: 1;
+
+}
+.nav-link{
+    color: white;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+.main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    /*justify-content: flex-start;
+    align-self: flex-start;*/
+    margin: 0%;
+}
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+    /*align-self: flex-end;
+    justify-content: flex-start;*/
+    margin: 0%;
+}
+.under-main-content{
+background-color: #1f2937;
+display: flex;
+flex: 1;
+
+}
+.picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+}
+.fainosag{
+    flex-direction: column;
+    gap: 8px;
+}
+.faiini{
+    justify-content: center;
+}
