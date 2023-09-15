@@ -8,9 +8,7 @@
     display: flex;
     flex-direction: row;
     flex: 1 1 auto;
-    gap: 8px
-    ;
-
+    gap: 8px;
 }
 .header-Logo{
     color: #F9FAF8;
@@ -42,19 +40,53 @@
 background-color: #1f2937;
 display: flex;
 flex: 1;
+justify-content: space-around;
 
-}
-.picture{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  
-}
+} 
 .fainosag{
     flex-direction: column;
-    gap: 8px;
 }
 .faiini{
     justify-content: center;
+}
+.supertext{
+    padding: 9px;
+    padding-bottom: 20px;
+}
+.button-subtext{
+    border-radius: 25px;
+    width: 125px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #3882F6;
+}
+.picture{
+    width: 650px;
+    height: 300px;
+}
+.information-parent{
+display: flex;
+flex-direction: row;
+flex: 1;
+justify-content: center;
+}
+.big-information-text{
+text-align: center;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    overflow: auto;
+}
+.information-subtext{
+    display: flex;
+    flex-direction: column;
+}
+.under-box-information{
+    /*display: inline;*/
 }
